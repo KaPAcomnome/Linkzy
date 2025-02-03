@@ -14,7 +14,7 @@ if (profilePicture) {
 // Typing effect for the description
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("description");
-    const text = "TRADUTOR, MODER & SOURCE ENJOYER.";
+    const text = "TRADUTOR, MODDER & SOURCE ENJOYER.";
     let index = 0;
 
     function typeEffect() {
