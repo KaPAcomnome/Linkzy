@@ -9,14 +9,15 @@
 
 /* Page body */
 body {
-    background-color: #dcdcdc;
+    min-height: 100vh; /* Garante que o conteúdo mínimo seja a tela inteira */
+    overflow-y: auto; /* Permite rolagem vertical */
+    background: linear-gradient(to bottom, #4b4545, #363636);
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 100vh;
-    padding-top: 40px; /* Moves content slightly up */
+    padding-top: 40px;
     font-family: Arial, sans-serif, 'JetBrains Mono', monospace;
 }
 
@@ -37,10 +38,10 @@ body {
 
 /* Name */
 .name {
-    font-size: 32px; /* Larger for emphasis */
+    font-size: 32px;
     font-weight: bold;
     margin-top: 10px;
-    color: #777777; /* White */
+    color: #ffffff;
 }
 
 /* Description */
@@ -48,9 +49,9 @@ body {
     font-size: 16px;
     opacity: 0.8;
     font-family: 'JetBrains Mono', monospace;
-    margin-top: 8px; /* Added to create separation from the name */
+    margin-top: 8px;
     margin-bottom: 20px;
-    color: #777777;
+    color: #ffffff;
 }
 
 /* Links container */
@@ -59,7 +60,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px; /* Separation from the top */
+    margin-top: 40px;
     width: 100%;
 }
 
@@ -67,19 +68,19 @@ body {
 .links {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* More spacing between buttons */
+    gap: 20px;
     width: 100%;
     max-width: 400px;
 }
 
 /* Link button styling */
 .link {
-    background-color: #777777;
+    background: linear-gradient(to bottom, #999999, #777777);
     color: #ffffff;
     text-decoration: none;
-    padding: 20px; /* Larger for better comfort */
+    padding: 20px;
     border-radius: 12px;
-    font-size: 20px; /* Bigger text */
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     font-family: 'JetBrains Mono', monospace;
