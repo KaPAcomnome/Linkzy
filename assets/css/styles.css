@@ -9,7 +9,7 @@
 
 /* Page body */
 body {
-    background-color: #0e1116;
+    background-color: #dcdcdc;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 3px solid #346a39;
+    border: 3px solid #777777;
 }
 
 /* Name */
@@ -40,7 +40,7 @@ body {
     font-size: 32px; /* Larger for emphasis */
     font-weight: bold;
     margin-top: 10px;
-    color: #ffffff; /* White */
+    color: #777777; /* White */
 }
 
 /* Description */
@@ -50,6 +50,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
     margin-top: 8px; /* Added to create separation from the name */
     margin-bottom: 20px;
+    color: #777777;
 }
 
 /* Links container */
@@ -73,7 +74,7 @@ body {
 
 /* Link button styling */
 .link {
-    background-color: #346a39;
+    background-color: #777777;
     color: #ffffff;
     text-decoration: none;
     padding: 20px; /* Larger for better comfort */
@@ -86,6 +87,6 @@ body {
 }
 
 .link:hover {
-    background-color: #28512c;
+    background-color: #525252;
     transform: scale(1.05);
 }
