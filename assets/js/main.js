@@ -1,5 +1,5 @@
 // Set the profile picture according to the GitHub username
-const githubUsername = "DavidMacalister"; // Replace with your GitHub username
+const githubUsername = "KaPAcomnome"; // Replace with your GitHub username
 
 // Select the profile image by ID
 const profilePicture = document.getElementById("profile-picture");
@@ -14,7 +14,7 @@ if (profilePicture) {
 // Typing effect for the description
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("description");
-    const text = "TRADUTOR, MODDER & SOURCE ENJOYER.";
+    const text = "MAPPER, ARTIST, MODDER & SOURCE ENJOYER.";
     let index = 0;
 
     function typeEffect() {

@@ -11,7 +11,7 @@
 body {
     min-height: 100vh; /* Garante que o conteúdo mínimo seja a tela inteira */
     overflow-y: auto; /* Permite rolagem vertical */
-    background: linear-gradient(to bottom, #4b4545, #363636);
+    background: linear-gradient(to bottom, #ffd727, #836f17);
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -70,16 +70,16 @@ body {
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    max-width: 400px;
+    max-width: 400%; 
 }
 
 /* Link button styling */
 .link {
-    background: linear-gradient(to bottom, #999999, #777777);
-    color: #ffffff;
+    background: linear-gradient(to bottom, #ffdb79, #ffeab0);
+    color: #000000;
     text-decoration: none;
-    padding: 20px;
-    border-radius: 12px;
+    padding: 8px;
+    border-radius: 3px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
